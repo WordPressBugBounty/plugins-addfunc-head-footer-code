@@ -5,8 +5,8 @@ Contributors: AddFunc,joerhoney
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7AF7P3TFKQ2C2
 Tags: head code, footer code, add to head, per page, tracking code, Google Analytics, javascript, meta tags, wp_head, wp_footer, body tag code, opening body tag
 Requires at least: 3.0.1
-Tested up to: 5.2
-Stable tag: 2.3
+Tested up to: 6.9
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,11 @@ Yes. [addfunc.com](http://addfunc.com/)
 2. Add your code to these fields respectively and it will output specifically to this page, post or custom post type. Optionally replace or remove the site-wide code on any individual post or page.
 
 == Changelog ==
+
+= 2.4 =
+28 Mar 2026
+
+*   Fixes vulnerability: (Thanks to Muhammad Yudha - DJ / Wordfence) "Fix CVE-2026-2305: register_meta on init and sanitize meta"
 
 = 2.3 =
 23 May 2019

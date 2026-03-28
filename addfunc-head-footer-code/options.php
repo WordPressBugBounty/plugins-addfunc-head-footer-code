@@ -1,3 +1,4 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?>
 <div class="wrap">
   <h2>Head & Footer Code</h2>
   <div id="poststuff">
